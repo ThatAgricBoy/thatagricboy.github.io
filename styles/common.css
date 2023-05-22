@@ -10,9 +10,7 @@ body {
 
 .container {
     max-width: 1000px;
-    margin: 30px;
-    display: flex;
-    justify-content: center;
+    margin: 30px auto;
 }
 
 .filters {
@@ -26,14 +24,13 @@ body {
 .search-button {
     font-size: 18px;
     height: 48px;
-    width: 100%;
+    width: 20px;
     background-color: #FF5A5F;
     color: #FFFFFF;
     border: none;
     border-radius: 4px;
-    opacity: 1;
-    transition: opacity 0.3s;
-    padding-right: 20px;
+    margin-right: 30px;
+    vertical-align: middle;
 }
 .serach-button:hover {
     opacity: 0.9;
