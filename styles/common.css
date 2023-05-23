@@ -5,9 +5,7 @@ body {
 	color: #484848;
 	font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 14px;
-	display: flex;
-	flex-direction: column;
-	background-color:#FF7901
+	background-color:#FF7901;
 }
 
 .container {
@@ -15,13 +13,14 @@ body {
     max-width: 1000px;
     margin-top: 30px;
     margin-bottom: 30px;
+   <!-- margin-bottom: 30px;-->
  }
 
 .filters{
     background-color: white;
     height: 70px;
     width: 100%;
-    border-style: 5px solid black;
+    border: 5px ridge black;
     border-radius: 4px;
     display: flex;
     justify-content: flex-end;
@@ -37,10 +36,9 @@ section.filters button {
     color: #FFFFFF;
     border: none;
     border-radius: 4px;
-    position: absolute;
     margin-right: 30px;
 }
-section.filter button:hover {
+section.filter search-button:hover {
     opacity: 0.9;
     cursor: pointer;
 }
