@@ -11,7 +11,7 @@
     <header>
         <div class="nav-elements">
             <div class="logo">
-                <a href="{{ url_for('views.index') }}">
+                <a href="index.html">
                     <img src="../static/image/logo.png" alt="Website Logo">
                 </a>
             </div>
@@ -20,9 +20,9 @@
             <div class="nav_links">
                 <a href="#home" class="active">Home</a>
                 <a>|</a>
-                <a href="{{ url_for('auth.login') }}">Log in</a>
+                <a href="login.html">Log in</a>
                 <a>|</a>
-                <a href="{{ url_for('views.create_property') }}">
+                <a href="listings.html">
                     <img src="../static/image/home-2_icon.png" alt="Form" class="formicon">
                 </a>
             </div>
@@ -37,7 +37,7 @@
                 <div class="bg-text-container">
                     <div class="bg-text">Discover, Connect, Rent.</div>
                 </div>
-                <form method="POST" action="{{ url_for('views.listings') }}">
+                <form method="POST" action="listings.html">
                     {{ form.hidden_tag() }}
                     <div class="search-box">
                         <div class="input-container">
